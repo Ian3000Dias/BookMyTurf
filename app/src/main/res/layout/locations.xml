@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Locations"
+    android:background="@drawable/background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+
+            android:text="SELECT YOUR LOCATION"
+            android:textSize="35sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnBandra"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="#00FF2A"
+                android:gravity="center"
+                android:text="Bandra"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnSantacruz"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="#00FF2A"
+                android:gravity="center"
+                android:text="Santacruz"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnMiraroad"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="#00FF2A"
+                android:text="Mira Road"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnBhayandhar"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="#00FF2A"
+                android:text="Bhayandhar"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

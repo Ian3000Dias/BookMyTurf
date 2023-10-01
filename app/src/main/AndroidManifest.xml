@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Turf Booker"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.PaymentGateway1"
+            android:exported="false"/>
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.Locations"
+            android:exported="false"/>
+        <activity android:name="com.example.AllLocations.Bandra"
+            android:exported="false"/>
+        <activity android:name="com.example.AllLocations.MiraRoad"
+            android:exported="false"/>
+        <activity android:name="com.example.AllLocations.Santacruz1"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.Sporting"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.Andrews"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.Josephs"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.Santacruz"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.Turfit"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.Golds"
+            android:exported="false"/>
+        <activity
+            android:name="com.example.HomePage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.registrationpage.SecondActivity"
+            android:exported="false" />
+        <activity android:name="com.example.NearbyTurfs.Turfs1"
+            android:exported="false"/>
+        <activity android:name="com.example.AllLocations.Bhayandar"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.Maxus"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.Dugout"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.PgVora"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.Urbansports"
+            android:exported="false"/>
+        <activity android:name="com.example.NearbyTurfs.StXaviers"
+            android:exported="false"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

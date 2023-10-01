@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:visibility="visible"
+    app:layout_insetEdge="none"
+    android:background="@drawable/dark_grass"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="ExtraText"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="290dp"
+            android:text="@string/book_the_sport"
+            android:textColor="#FAF3F3"
+            android:textColorHighlight="#E80909"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/flexible_and_customizable_features_to_ease_process_of_booking_the_turf"
+            android:textAlignment="center"
+            android:textColor="#FFFFFD"
+            android:textColorHighlight="#0E3CE3"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="210dp"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/soccer" />
+
+        tools:viewBindingIgnore="true"
+    </RelativeLayout>
+
+</ScrollView>

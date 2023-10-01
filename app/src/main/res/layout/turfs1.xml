@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.NearbyTurfs.Turfs1"
+android:background="@drawable/background">
+
+<!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="@string/turfs"
+        android:textSize="60sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/browser_actions_bg_grey">
+
+        <ImageButton
+            android:id="@+id/turf1"
+            android:layout_width="188dp"
+            android:layout_height="140dp"
+            android:layout_alignEnd="@id/sporting"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-200dp"
+            android:contentDescription="@string/sporting"
+            android:src="@drawable/sporting_lions" />
+
+        <Button
+            android:id="@+id/turf1_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sporting"
+            android:layout_marginStart="60dp"
+            android:gravity="center"
+            android:text="Select" />
+
+        <TextView
+            android:id="@+id/sporting"
+            android:layout_width="205dp"
+            android:layout_height="95dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="208dp"
+            android:text="@string/turf_1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/browser_actions_bg_grey">
+
+        <ImageButton
+            android:id="@+id/turf2"
+            android:layout_width="188dp"
+            android:layout_height="140dp"
+            android:layout_alignEnd="@id/andrews"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-200dp"
+            android:contentDescription="@string/sporting"
+            android:src="@drawable/standrewsturfpark1" />
+        <Button
+            android:id="@+id/turf2_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:layout_below="@id/andrews"
+            android:gravity="center"
+            android:layout_marginStart="60dp"/>
+        <TextView
+            android:id="@+id/andrews"
+            android:layout_width="205dp"
+            android:layout_height="95dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="208dp"
+            android:text="St. Andrews Turf Park"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/browser_actions_bg_grey">
+
+        <ImageButton
+            android:id="@+id/turf3"
+            android:layout_width="188dp"
+            android:layout_height="140dp"
+            android:layout_alignEnd="@id/st_josephs"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-200dp"
+            android:contentDescription="@string/sporting"
+            android:src="@drawable/st_josephs" />
+
+        <Button
+            android:id="@+id/turf3_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/st_josephs"
+            android:layout_marginStart="60dp"
+            android:gravity="center"
+            android:text="Select" />
+        <TextView
+            android:id="@+id/st_josephs"
+            android:layout_width="205dp"
+            android:layout_height="95dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="208dp"
+            android:text="St. Josephs Turf"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/browser_actions_bg_grey">
+
+        <ImageButton
+            android:id="@+id/turf4"
+            android:layout_width="188dp"
+            android:layout_height="140dp"
+            android:layout_alignEnd="@id/santacruz"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-200dp"
+            android:contentDescription="@string/sporting"
+            android:src="@drawable/santacruz_turf" />
+
+        <Button
+            android:id="@+id/turf4_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/santacruz"
+            android:layout_marginStart="60dp"
+            android:gravity="center"
+            android:text="Select" />
+        <TextView
+            android:id="@+id/santacruz"
+            android:layout_width="205dp"
+            android:layout_height="95dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="208dp"
+            android:text="Santacruz Sports turf"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/browser_actions_bg_grey">
+
+        <ImageButton
+            android:id="@+id/turf5"
+            android:layout_width="188dp"
+            android:layout_height="140dp"
+            android:layout_alignEnd="@id/astro"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-200dp"
+            android:contentDescription="@string/sporting"
+            android:src="@drawable/astro_turf" />
+        <Button
+            android:id="@+id/turf5_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:layout_below="@id/astro"
+            android:gravity="center"
+            android:layout_marginStart="60dp"/>
+        <TextView
+            android:id="@+id/astro"
+            android:layout_width="205dp"
+            android:layout_height="95dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="208dp"
+            android:text="Gold Standard Sports Zone"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/browser_actions_bg_grey">
+
+        <ImageButton
+            android:id="@+id/turf6"
+            android:layout_width="188dp"
+            android:layout_height="140dp"
+            android:layout_alignEnd="@id/turfit"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-200dp"
+            android:contentDescription="@string/sporting"
+            android:src="@drawable/turfit1" />
+        <Button
+            android:id="@+id/turf6_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:layout_below="@id/turfit"
+            android:gravity="center"
+            android:layout_marginStart="60dp"/>
+
+        <TextView
+            android:id="@+id/turfit"
+            android:layout_width="205dp"
+            android:layout_height="95dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="208dp"
+            android:gravity="center"
+            android:text="Turf it up"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+</ScrollView>

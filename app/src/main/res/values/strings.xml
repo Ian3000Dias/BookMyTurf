@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Splash Screen</string>
+    <string name="email">Email Address</string>
+    <string name="log_in">Login</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="remember_password" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="Register">Welcome On Board! Please Register.</string>
+    <string name="Confirm_password">Confirm Password</string>
+    <string name="popular_turfs">Popular Turfs</string>
+    <string name="past_bookings">Past Bookings</string>
+    <string name="nearby_turfs">Nearby Turfs</string>
+    <string name="sports_latest">Sports Latest</string>
+    <string name="search">Search</string>
+    <string name="welcome">Welcome</string>
+    <string name="Logout">Log Out</string>
+    <string name="get_started">Get Started</string>
+    <string name="book_the_sport">BOOK THE SPORT</string>
+    <string name="flexible_and_customizable_features_to_ease_process_of_booking_the_turf">Flexible and Customizable Features to ease process of booking the turf</string>
+    <string name="turf_1">Sporting Lions Foundation Sports Turf</string>
+    <string name="turfs">Turfs</string>
+    <string name="sporting">sporting</string>
+    <string name="football">Football</string>
+</resources>
